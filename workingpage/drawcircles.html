@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>interactivity of nov 19 classwork</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+	var ctx, canvas;
+	var mousex = 0;
+	var mousey = 0;
+
+	document.onmousemove=function(e){
+		mousex = e.clientX;
+		mousey = e.clientY;
+	}
+
+	function setup() {
+		canvas = document.createElement("canvas");
+		canvas.width = window.innerWidth;
+		canvas.height = window.innerHeight;
+		document.body.appendChild(canvas);
+		ctx = canvas.getContext("2d");
+	}
+
+	function draw(){
+
+		ctx.strokeStyle = "blue";
+		ctx.beginPath();
+		ctx.arc(mousex, mousey, 30, 0, 6.28, false);
+		ctx.stroke();
+
+	}
+
+	setup();
+	setInterval(draw, 1000/60);
+
+	</script>
+
+</body>
+</html>

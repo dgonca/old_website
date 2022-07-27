@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>art && animation</title>
+
+		<style type="text/css">
+			body{
+				margin: 0;
+			}
+		</style>
+	</head>
+	<body>
+
+		<script type="text/javascript">
+
+			var ctx, canvas;
+			var x = 0;
+			var y = 0;
+			var a = 0;
+			var b = 0;
+			var c = 0;
+			var d = 0;
+			var dx = 3;
+			var dy = 3;
+			var e = 0;
+			var f = 0;
+			var g = 0;
+			var h = 0;
+			var i = 0;
+			var j = 0;
+			var k = 0;
+			var l = 0;
+
+			function setup() {
+				canvas = document.createElement("canvas");
+				canvas.width = window.innerWidth;
+				canvas.height = window.innerHeight;
+				document.body.appendChild(canvas);
+				ctx = canvas.getContext("2d");
+			}
+
+			function draw() {
+				x = Math.random() * canvas.width;
+				y = Math.random() * canvas.height;
+				a = Math.random() * canvas.width;
+				b = Math.random() * canvas.height;
+				r = Math.random() * 30;
+				c = Math.random() * canvas.width;
+				d = Math.random() * canvas.height;
+				e = Math.random() * canvas.width;
+				f = Math.random() * canvas.height;
+				g = Math.random() * canvas.width;
+				h = Math.random() * canvas.height;
+				i = Math.random() * canvas.width;
+				j = Math.random() * canvas.height;
+				k = Math.random() * canvas.width;
+				l = Math.random() * canvas.height;
+
+				ctx.strokeStyle = "#F72351";
+				ctx.beginPath();
+				ctx.arc(x, y, 10, 0, 6.28, false);
+				ctx.stroke();
+
+				ctx.strokeStyle = "#EB15B5";
+				ctx.beginPath();
+				ctx.arc(x, y, 10, 0, 6.28, false);
+				ctx.stroke();
+
+				ctx.strokeStyle = "#F51616";
+				ctx.beginPath();
+				ctx.arc(c, d, 10, 0, 6.28, false);
+				ctx.stroke();
+
+				ctx.strokeStyle = "#E36BC5";
+				ctx.beginPath();
+				ctx.arc(e, f, 10, 0, 6.28, false);
+				ctx.stroke();
+
+				ctx.strokeStyle = "#ED4726";
+				ctx.beginPath();
+				ctx.arc(g, h, 10, 0, 6.28, false);
+				ctx.stroke();
+
+				ctx.strokeStyle = "#F2163B";
+				ctx.beginPath();
+				ctx.arc(i, j, 10, 0, 6.28, false);
+				ctx.stroke();
+
+				ctx.strokeStyle = "#F25F16";
+				ctx.beginPath();
+				ctx.arc(k, l, 10, 0, 6.28, false);
+				ctx.stroke();
+
+			}
+
+			setup();
+			setInterval( draw, 1000/60 );
+
+		</script>
+
+	</body>
+	</html>

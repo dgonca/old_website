@@ -1,0 +1,114 @@
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	font-family: Megrim;
+	font-family: "Ubuntu";
+}
+
+#footer{
+	position: fixed;
+	bottom: 15px;
+	left: 107px;
+	font-size: 30px;
+}
+
+#main{
+	padding-top: 30px;
+	padding-right: 30px;
+	float: right;
+	
+}
+
+#contact{
+	margin: 10% 25% 10% 25%}
+
+#photosmain{
+	padding-top: 30px;
+	padding-right: 30px;
+	max-height: 400px;
+	overflow-y: scroll;
+	white-space: nowrap;
+	display: inline;
+	float: left;
+	padding-left: 30px;
+	vertical-align: middle;
+
+}
+
+
+
+#webartmain{
+	padding-top: 50px;
+	padding-right: 30px;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	padding-left: 80px;
+}
+
+#biomain{
+	vertical-align: middle;
+	padding-top: 30px;
+	float: right;
+	padding-right: 30px;
+	display: block;
+	max-height: 400px;
+
+}
+
+.bio{
+	float: left;
+	width: 300px;
+	text-align: right;
+	padding-right: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: #A8E5ED;
+}
+
+#nav{
+	position: fixed;
+	bottom: 40px;
+	left: 300px;
+
+}
+
+#photographymain{
+	padding-top: 100px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#journalmain{
+	padding-top: 30px;
+	margin: 0 auto;
+	text-align: center;
+	max-height: 500px;
+	overflow-y: scroll;
+}
+
+#photosmain h3{
+	vertical-align: middle;
+}
+
+#test{
+	padding-top: 100px;
+	margin: 0 auto;
+	text-align: center;
+	width: 550px;
+
+}
+
+#description{
+	position: fixed;
+	bottom: 100px;
+	left: 200px;
+}
+

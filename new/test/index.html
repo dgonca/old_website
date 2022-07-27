@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOMINIQUE GONCALVES | HOME</title>
+  <link rel="stylesheet" type="text/css" href="art2.css">
+</head>
+<body oncontextmenu="return false">
+  <script language="javascript">
+document.onmousedown=disableclick;
+status="Right Click Disabled";
+Function disableclick(event)
+{
+  if(event.button==2)
+   {
+     alert(status);
+     return false;    
+   }
+}
+</script>
+
+  <div class="navigation">
+      <a href="index.html"><img class="logoimg" src="img.jpg"/></a>
+        
+
+  <header>
+        <nav>
+          <dl>
+            <dt class="series"><a onclick="javascript:ShowHide('HiddenDiv')">WORK</a></dt>
+            <div class="mid" id="HiddenDiv" style="display: none;" class="work"> 
+                <a class="down" href="fashion.html">FASHION</a><br>
+                <a class="down" href="youth.html">YOUTH CULTURE</a><br>
+              <a class="down" href="music.html">MUSIC</a><br>
+              <a class="down" href="polaroids.html">POLAROIDS</a><br>
+              <a class="down" href="35mm.html">FILM</a><br>
+              <a class="down" href="saic_yr_1.html">SAIC YR. 1</a><br>
+            
+                
+                <script type="text/javascript">// <![CDATA[
+function ShowHide(divId)
+{
+if(document.getElementById(divId).style.display == 'none')
+{
+document.getElementById(divId).style.display='block';
+}
+else
+{
+document.getElementById(divId).style.display = 'none';
+}
+}
+// ]]></script>
+                
+            </div>
+
+
+            <dt class="series"><a href="about.html">ABOUT</a></dt>
+            <dt class="series"><a href="contact.html">CONTACT</a></dt>
+          </dl>
+        </nav>
+      </header>
+    </div>
+
+    <div class="home">
+      <div class="introimgs">
+        <a href="music.html"><img class="imgs" src="film/june_july/watermarked/dietcig4.jpg" width="30%" height="20%" alt="alex of diet cig"></a>
+        <a href="fashion.html"><img class="imgs" src="images/mj-1.jpg" width="30%" height="20%" alt="madeline jane"></a>
+      </div>
+    </div>
+
+
+</body>
+</html>

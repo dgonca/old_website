@@ -1,0 +1,191 @@
+* {
+  font-family:helvetica,sans-serif;
+  font-size:97%;
+  line-height:1.4em;
+  }
+
+body{
+  background-color: #000000;
+}
+header {
+  position:fixed;
+  bottom:300px;
+  width:150px;
+  border:2px solid white;
+  padding-left:10px;
+  padding-right:10px;
+  font-weight:bold;
+  margin-left:76px;
+  }
+img.logoimg {
+  position:fixed;
+  width:204px;
+  float:left;
+  bottom:25px;
+  margin-bottom:50px;
+  margin-left:45px;
+
+  }
+/*img.logoimgmobile {
+  display:none;
+  }
+img.absposone {
+  position:fixed;
+  float:left;
+  top:0px;
+  left:0px;
+  border:none;
+  height:100%;
+  width:100%;
+  z-index:-1;
+}*/
+  
+a {
+  text-decoration:none;
+  color:white;
+  }
+a.series {
+  line-height:.2em;
+  }
+div.work {
+  margin-bottom:8px;
+}
+dt.series {
+  line-height:2em;
+  }
+dt.down{
+  line-height: 2.5em;
+  text-indent: 5em;
+}
+dt.toobigseries {
+  padding-left:10px;
+  line-height:1.2em;
+  }
+a:link {
+  }
+a:visited {
+  }
+a:hover {
+  color: #A5F2E9;
+  }
+
+p{
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  color: white;
+}
+
+img.imgs{
+  display: block;
+    margin: auto;
+    border: 2px solid white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+   
+
+}
+
+.maincontact{
+  color: white;
+  text-align: center;
+  width: 300px;
+  border: 2px solid white;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 15%;
+}
+
+
+
+.first{
+  color: white;
+  text-align: center;
+  width: 300px;
+  border: 2px solid white;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 10%;
+  padding: 5px;
+}
+
+.second{
+  color: white;
+  text-align: center;
+  width: 300px;
+  border: 2px solid white;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 5px;
+}
+
+.third{
+  color: white;
+  text-align: center;
+  width: 300px;
+  border: 2px solid white;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 5px;
+  
+}
+
+.fourth{
+  color: white;
+  text-align: center;
+  width: 300px;
+  border: 2px solid white;
+  font-size: 15px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 5px;
+  
+}
+
+div.portfoliocontent {
+  max-width: 100%;
+  margin-top:37px;
+  height: auto;
+    }
+
+figure {
+  float:right;
+  }
+
+  
+img.portfolio {
+  border:2px solid white;
+  height:550px;
+  width:auto;
+  margin-right: -10px;
+  }
+
+
+footer{
+  color: black;
+}
+
+figcaption {
+  font-weight:bold;
+  text-align:left;
+  color: white;
+  }
+
+
+img.icons{
+  border: 2px solid white;
+  height: 150px;
+  width: 150px;
+
+}
+
+div.showspage{
+  max-width: 80%;
+  margin: 0 auto;
+  padding-left: 100px;
+  margin-top: 20px;
+  height: auto;
+}
+
